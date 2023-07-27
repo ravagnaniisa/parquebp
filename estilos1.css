@@ -85,3 +85,52 @@ header nav a:hover {
 }
 
 /* _________________________________________________ */
+/* Main */
+
+main {
+    background-image: linear-gradient(rgba(255, 255, 255, 0) 40%, rgb(170, 0, 128));
+}
+
+.slides {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.slides img {
+    margin: 20px;
+    width: 380px;
+    height: 450px;
+    border: 1px solid black;
+    box-shadow: 2px 0px 8px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+
+}
+
+/* _________________________ */
+
+.principais {
+    display: flexbox;
+    background-color: #ffbde6;
+    text-align: center;
+    width: 380px;
+    height: 250px;
+    border: 10px double black;
+}
+
+.principais h2 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 0px rgb(255, 0, 191), 4px 4px 0px rgb(255, 0, 191);
+    margin-bottom: 10px;
+}
+
+.principais li {
+    font-size: 20px;
+}
+
+.container1 {
+    display: flex;
+}
