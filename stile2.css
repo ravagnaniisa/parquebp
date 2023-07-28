@@ -52,6 +52,9 @@ header nav a:hover {
     color: rgb(170, 0, 128);
     text-decoration: underline;
 }
+body {
+    background-color: rgb(253, 231, 246);
+}
 
 .pesquisa {
     margin-top: 40px;
