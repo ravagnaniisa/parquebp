@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contato</title>
   <!-- Favicon -->
-  <link rel="shortcut icon" href="#" type="image/x-icon" />
+  <link rel="shortcut icon" href="" type="image/x-icon" />
   <!-- Estilos (Link CSS) -->
-  <link rel="stylesheet" href="estilos.css">
+
+  <link rel="stylesheet" href="stile2.css">
+  <link rel="stylesheet" href="stilos2.css">
 </head>
+
 <body>
 
   <!-- ___________________________________________________________________ -->
   <!-- Cabeçalho -->
 
   <header>
-    <img src="images/logo.png" alt="Logo do Parque Aquático">
-    <h1>Parque Aquático</h1>
+    <div class="conteudo1">
+    <img src="imagens/logo.png" alt="Logo do Parque Aquático">
+    <h1>Park Barbie</h1>
     <!-- Links -->
     <nav>
       <a href="index.html">Home</a>
@@ -24,39 +29,58 @@
       <a href="contato.html">Formulário de contato</a>
     </nav>
     <!-- Barra de pesquisa -->
-    <div class="pesquisa">
-      <input type="text" placeholder="Pesquisar...">
-      <button type="submit">Pesquisar</button>
-    </div>
+      <input type="text" placeholder="Pesquisar..." class="pesquisa">
+      <button type="submit" class="pesquisar">Pesquisar</button>
+  </div>
   </header>
 
   <!-- ___________________________________________________________________ -->
   <!-- Sessão contato -->
 
-  <section class="contato">
-    <h2>Contato</h2>
-    <p>Endereço: Rua X, 123, Bairro Y, Cidade, Estado</p>
-    <p>Telefone: (11) 9999-9999</p>
-    <p>E-mail: contato@parqueaquatico.com.br</p>
-    <form action="contact.php" method="post">
-      <input type="text" name="name" placeholder="Nome">
-      <input type="email" name="email" placeholder="E-mail">
-      <input type="message" name="message" placeholder="Mensagem">
-      <input type="submit" value="Enviar">
-    </form>
-  </section>
+  <form class="formscontato">
 
-  <!-- ___________________________________________________________________ -->
-  <!-- Rodapé -->
+    <strong>
+      <h2 class="titulo2">Formulário de Contato</h2>
+    </strong>
+    <br>
 
-  <footer>
-    <p>Copyright &copy; 2023 Parque Aquático</p>
-    <div class="redes-sociais">
-      <a href="#">Facebook</a>
-      <a href="#">Twitter</a>
-      <a href="#">Instagram</a>
+    <label for="">Nome</label>
+    <div>
+      <input class="inputcontato" type="text" id="nomeid" placeholder="Digite seu nome" id="username">
     </div>
-  </footer>
+
+    <br>
+
+    <label for="">E-mail</label>
+    <div>
+      <input class="inputcontato" type="email" id="emailid" placeholder="Digite um endereço de email válido" id="email">
+    </div>
+    
+    <br>
+
+
+    <label for="">Mensagem</label>
+    <div class="caixatextocontato">
+      <textarea class="textareacontato" name="" id="mensagemid" cols="71" rows="6"
+        placeholder="Digite sua mensagem aqui"></textarea>
+    </div>
+    </form>
+    <!-- ___________________________________________________________________ -->
+    <!-- Rodapé -->
+    <br><br>
+    <footer>
+      <br>
+      <p>Copyright &copy; 2023 Parque Aquático</p>
+      <br>
+      <div class="redes-sociais">
+        <a href="#">Facebook</a>
+        <br>
+        <a href="#">Twitter</a>
+        <br>
+        <a href="#">Instagram</a>
+      </div>
+    </footer>
 
 </body>
+
 </html>
