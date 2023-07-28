@@ -128,12 +128,15 @@ body{
 
 .botaocontato {
     background-color: #ffbde6;
-    width: 399px;
+    width: 100px;
     height: 40px;
     border: none;
-    padding-top: 4%;
+    padding-top: 1%;
     text-align: center;
     transition: all 0.3s ease;
+    border-radius: 3px;
+    margin-left: 1150px;
+    margin-top: -50px;
 
     
 }
