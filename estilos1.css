@@ -88,7 +88,7 @@ header nav a:hover {
 /* Main */
 
 main {
-    background-image: linear-gradient(rgba(255, 255, 255, 0) 40%, rgb(170, 0, 128));
+    background-image: linear-gradient(rgba(255, 255, 255, 0) 40%, rgb(170, 0, 128), black)  ;
 }
 
 .slides {
@@ -112,12 +112,14 @@ main {
 /* _________________________ */
 
 .principais {
+    position: relative;
     display: flexbox;
     background-color: #ffbde6;
     text-align: center;
     width: 380px;
     height: 250px;
     border: 10px double black;
+    left: 240px;
 }
 
 .principais h2 {
@@ -128,9 +130,117 @@ main {
 }
 
 .principais li {
-    font-size: 20px;
+    font-size: 22px;
+    list-style-type: none;
 }
 
-.container1 {
+.container1 section {
     display: flex;
+    justify-content: space-between;
 }
+
+/* _____________________ */
+
+.funcionamento {
+    position: relative;
+    background-color: #ffbde6;
+    text-align: center;
+    width: 380px;
+    height: 250px;
+    border: 10px double black;
+    left: 800px;
+    bottom: 250px;
+}
+
+.funcionamento h2 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 0px rgb(255, 0, 191), 4px 4px 0px rgb(255, 0, 191);
+    margin-bottom: 10px;
+}
+
+.funcionamento p {
+    font-size: 28px;
+}
+
+/* ________________________ */
+
+.ingressos {
+    position: relative;
+    display: flexbox;
+    background-color: #ffbde6;
+    text-align: center;
+    width: 380px;
+    height: 250px;
+    border: 10px double black;
+    left: 240px;
+}
+
+.ingressos h2 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 0px rgb(255, 0, 191), 4px 4px 0px rgb(255, 0, 191);
+    margin-bottom: 10px;
+}
+
+.ingressos p {
+    font-size: 25px;
+}
+
+/* ____________________________ */
+
+.numeros {
+    position: relative;
+    display: flexbox;
+    background-color: #ffbde6;
+    text-align: center;
+    width: 380px;
+    height: 250px;
+    border: 10px double black;
+    left: 800px;
+    bottom: 245px;
+}
+
+.numeros h2 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 0px rgb(255, 0, 191), 4px 4px 0px rgb(255, 0, 191);
+    margin-bottom: 10px;
+}
+
+.numeros li {
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.numeros b {
+    font-weight: bolder;
+}
+
+/* _______________________________ */
+/* Footer */
+
+footer {
+    background-color: black;
+    height: 140px;
+}
+
+footer p {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 0, 191);
+    font-size: 20px;
+    transition: color 0.3s, font-size 0.5s;
+}
+
+footer a:hover {
+    color: rgb(164, 0, 123);
+    font-size: 22px;
+}
+
+/* _____________________ */
