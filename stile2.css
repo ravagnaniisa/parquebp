@@ -133,17 +133,17 @@ body{
     border: none;
     padding-top: 1%;
     text-align: center;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     border-radius: 3px;
     margin-left: 1150px;
     margin-top: -50px;
-
-    
+    position: fixed;
 }
 
 .botaocontato:hover {
     background-color: deeppink;
-    color: deeppink;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
 footer {
