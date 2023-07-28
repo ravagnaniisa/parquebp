@@ -105,6 +105,7 @@ body{
     box-sizing: border-box;
     height: 63px;
     background-color: #ffbde6;
+    border-radius: 10px;
 }
 
 .caixatextocontato {
@@ -112,7 +113,8 @@ body{
     width: 500px;
     -moz-box-sizing: border-box; 
      box-sizing: border-box;
-    height: 9em;    
+    height: 9em;
+    border-radius: 10px;    
 }
 
 .textareacontato{
@@ -120,6 +122,8 @@ body{
     height: 10.3em;
     border: none;
     background-color: #ffbde6;
+    border-radius: 10px;
+    
 }
 
 .botaocontato {
@@ -130,6 +134,7 @@ body{
     padding-top: 4%;
     text-align: center;
     transition: all 0.3s ease;
+
     
 }
 
@@ -138,9 +143,25 @@ body{
     color: deeppink;
 }
 
-footer{
-    margin: 0;
-    text-align: center;
-    align-items: center;
-    background-color: #ffbde6;
+footer {
+    background-image: linear-gradient(white, black 10%);
+    height: 140px;
+}
+
+footer p {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 0, 191);
+    font-size: 20px;
+    transition: color 0.3s, font-size 0.5s;
+}
+
+footer a:hover {
+    color: rgb(164, 0, 123);
+    font-size: 22px;
 }
